@@ -1,0 +1,9 @@
+image: ruby:2.7
+
+pages:
+  script:
+    - mkdir public
+    - cp index.html index.js nblite.js sample.ipynb style.css public
+  artifacts:
+    paths:
+      - public

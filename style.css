@@ -1,0 +1,30 @@
+body {
+    padding: 0 64px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+}
+
+#nb-selector {
+    padding: 16px;
+    background-color: lightblue;
+}
+
+#nb-selector form {
+    margin: 0;
+}
+
+#nb-selector form * {
+    display: inline;
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    border: 1px;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100%;
+}
