@@ -11,7 +11,8 @@ body {
 
 #nb-selector {
     padding: 16px;
-    background-color: lightblue;
+    background-color: dodgerblue;
+    color: white;
 }
 
 #nb-selector form {
@@ -20,6 +21,17 @@ body {
 
 #nb-selector form * {
     display: inline;
+}
+
+input#url {
+    width: 300px;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: lavender;
+    padding: 1% 1%;
 }
 
 iframe {

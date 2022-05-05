@@ -1,6 +1,6 @@
 # NBLite: Minimalistic ClientSide Notebooks
 
-A fork of: https://eduardobonet.gitlab.io/nblite/ for educational purposes
+A fork of: https://eduardobonet.gitlab.io/nblite/ for educational purposes.
 
 ![example](./img/example.png)
 
@@ -8,10 +8,8 @@ NBLite is a proof of concept that creates a client side runnable version of a no
 
 NBLite parses a notebook, creates the HTML, identifies the depedencies with 60 lines of javascript.
 
-## Considerations
-
-If you use this project, please credit it back to the original author, Eduardo Bonet.
-
+### Consideration
+If you use this project, please credit it back to the original author, Eduardo Bonet. 
 
 ## Opening local files
 
